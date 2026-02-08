@@ -46,9 +46,18 @@ export default function TabLayout() {
       <Tabs.Screen
         name="explore"
         options={{
-          title: "Progress",
+          title: "History",
           tabBarIcon: ({ color }) => (
             <Ionicons size={28} name="stats-chart-outline" color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="programs"
+        options={{
+          title: "Programs",
+          tabBarIcon: ({ color }) => (
+            <Ionicons size={28} name="list-outline" color={color} />
           ),
         }}
       />
